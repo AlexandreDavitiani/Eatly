@@ -507,3 +507,56 @@ border-radius: 6px;
   padding-left: 62px;
   padding-top: 42px;
 }
+.seventh-conatainer{
+    background-color:#FDF0E9;
+}
+.container-testi{
+  font-size: 16px;
+  text-align: center;
+letter-spacing: 3px;
+color: #EF6D58;
+padding-top: 116px;
+}
+
+.container-clients{
+  font-size: 56px;
+  font-weight:bold;
+  text-align: center;
+letter-spacing: -1px;
+color: #391400;
+padding-top: 31px;
+color: #391400;
+}
+.container-twitor{
+width: 391px;
+height: 432px;
+/* }
+.container-twitor{
+  margin-top: 67px;
+  margin-left: 183px;
+  border: 1px solid #F3D1BF;
+  border-radius: 6px 0px 0px 6px;
+}
+.container-twitor article{
+color: #391400A3;
+opacity: 1;
+padding: 116px 48px 48px 184px;
+font-size: 16px;
+}
+.container-twitor  img {
+  padding-top: 56px;
+padding-left: 48px;
+
+}
+.twitor-man , .en {
+font-size: 24px;
+color: #391400;
+font-weight: bold;
+padding-left: 24px;
+}
+
+.twitor-man , .en{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */

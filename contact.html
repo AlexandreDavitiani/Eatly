@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="eat.css">
+  <link rel="stylesheet" href="layout.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>EATLY</title>
+  <link rel="shortcut icon" href="img/logo.svg">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+  <header class="all-container">
+    <a href="index.html">
+      <div class="logo"><img src="img/logo.svg" alt="logo"> <p>EATLY</p></div>
+    </a>
+    <div class="burger-icon" id="burger-icon">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <nav class="main-menu" id="main-menu">
+      <ul>
+        <a href="second-index.html"><li>Menu</li></a>
+        <li>Blog</li>
+        <li>Pricing</li>
+        <a href="contact.html"><li>Contact</li></a>
+
+        <li class="container-login-sign">Login</li>
+        <li class="container-sign subscribe-btn">SignUp</li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <div class="ff"></div>
+
+  <section class="container-contact">
+
+    <div class="container-just">
+      <div class="container-words-just">Just Contact</div>
+      <div class="container-vector2"><img src="img/vector2.png" alt=""></div>
+      <div class="container-screen"><img src="img/iphone.png" alt=""></div>
+    </div>
+
+    <div class="container-forms">
+
+      <div class="container-rest con-cust">Customer <span class="rest">Support</span></div>
+      <div class="container-input-name">
+
+        <form class="container-class-name">
+          <input  name id placeholder="Full name" class="formaction">
+        </form>
+      </div>
+
+      <div class="container-input-name">
+
+        <form class="container-class-name">
+          <input type="email" name id placeholder="Enter Your Email Address" class="formaction">
+
+        </form>
+      </div>
+
+      <div class="container-input-name">
+
+        <form class="container-class-problem">
+         <textarea  placeholder="Enter The Problem Or Query " class="formaction"></textarea>
+        </form>
+      </div>
+      <form class="container-class2">
+        <button type="submit" class="subscribe-btn" id="subscribeButton">Send Now</button>
+      </form>
+
+    </div>
+
+  </section>
+
+
+
+
+
+    <div class="container-foot">
+      <div class="logo">
+        <img src="img/logo.svg" alt="Логотип">
+        <span class="rest ">EATLY</span>
+      </div>
+
+      <ul class="navigation">
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">About Us</a> </li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+
+
+    </div>
+    <div class="line"></div>
+
+    <footer>
+
+      <div class="all-right">
+        © 2023 EATLY All Rights Reserved.
+      </div>
+      <div class="socials">
+        <img src="img/Socials.svg" alt="">
+      </div>
+    </footer>
+
+    <script>
+    $(document).ready(function() {
+
+      $("#subscribeButton").click(function() {
+
+        $("#notificationContainer").fadeIn();
+
+
+        setTimeout(function() {
+          $("#notificationContainer").fadeOut();
+        }, 5000);
+      });
+    });
+    // alert('Hello, if you are not a bot choose button');
+
+    const burgerIcon = document.getElementById('burger-icon');
+    const mainMenu = document.getElementById('main-menu');
+
+    burgerIcon.addEventListener('click', () => {
+      mainMenu.classList.toggle('show');
+    });
+
+    </script>
+
+</body>
+</html>

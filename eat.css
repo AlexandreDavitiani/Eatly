@@ -1020,7 +1020,7 @@ footer {
 @media (max-width: 600px) {
   .burger-icon {
     display: flex;
-    padding-left: 60%;
+    margin-left: 60%;
   }
   footer {
     padding: 15px 0;
@@ -1046,22 +1046,21 @@ footer {
   }
 
   .main-menu {
-    display: none;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Center vertically */
+    justify-content: center;
     position: absolute;
-    top: 43%; /* Move to the middle of the screen */
-    transform: translateY(-50%); /* Adjust for centering */
+    top: 20%;
+    transform: translateY(-20%);
     background-color: #6C5FBC;;
     width: 100%;
     z-index: 1;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+   box-shadow: -1px 20px 10px rgba(0, 0, 0, 0.2);
   }
 
   .main-menu.show {
     display: flex;
-    animation: slideInRight 0.4s ease-in-out; /* Add slide-in animation */
+    animation: slideInRight 0.8s ease-in-out;
   }
 
   .main-menu ul {
@@ -1071,7 +1070,7 @@ footer {
   }
 
   .main-menu li {
-    margin: 15px 0; /* Adjust spacing */
+    margin: 15px 0;
   }
 
   /* Change menu item color */
